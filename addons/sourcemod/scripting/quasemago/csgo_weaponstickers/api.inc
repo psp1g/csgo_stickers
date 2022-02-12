@@ -1,7 +1,7 @@
 void LoadAPI()
 {
-	CreateNative("CS_SetWeaponSticker", Native_SetWeaponSticker);
-	CreateNative("CS_GetRandomSticker", Native_GetRandomSticker);
+	CreateNative("Stickers_SetWeaponSticker", Native_SetWeaponSticker);
+	CreateNative("Stickers_GetRandomSticker", Native_GetRandomSticker);
 }
 
 public int Native_SetWeaponSticker(Handle plugins, int numParams)

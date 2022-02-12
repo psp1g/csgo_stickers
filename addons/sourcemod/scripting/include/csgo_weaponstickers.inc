@@ -35,11 +35,11 @@
  * @param wear				Sticker wear.
  * @return					True on success, false on failure.
  */
-native bool CS_SetWeaponSticker(int client, int weapon, int slot, int defIndex, float wear);
+native bool Stickers_SetWeaponSticker(int client, int weapon, int slot, int defIndex, float wear);
 
 /**
  * Get random sticker index.
  *
  * @return					Sticker index.
  */
-native int CS_GetRandomSticker();
+native int Stickers_GetRandomSticker();
